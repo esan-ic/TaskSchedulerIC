@@ -1,0 +1,28 @@
+# R / Positron
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Datos
+data/*
+!data/.gitkeep
+
+# Outputs
+outputs/*
+
+# Variables de entorno / secretos
+.env
+env/
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

@@ -1,8 +1,10 @@
-#---------------------------------------------#
+#=============================================#
 # SCHEDULER: Ejecutar automaticamente scripts #
-#---------------------------------------------#
+#=============================================#
 # Instalar y cargar librerias
-library(taskscheduleR)        # Programar scripts/Markdown para su ejecución
+suppressPackageStartupMessages({
+  library(taskscheduleR)        # Programar scripts/Markdown para su ejecución
+})
 
 
 # 1. Programar Tareas -----------------------------------------------------
